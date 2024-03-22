@@ -1,0 +1,30 @@
+#title{
+    text-align: center;
+}
+
+#searchbar{
+    text-align: center;   
+}
+
+#data{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#body{
+    margin-top: 75px;
+    background-color:darkgray;
+}
+
+#main{
+    background-color: beige;
+    width: 20%;
+    padding-bottom: 5%;
+    padding-top: 1%;
+    margin-left: 39%;
+    margin-top: 10%;
+}
+
+.info{
+    margin-top: 10px;
+}

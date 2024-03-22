@@ -1,0 +1,29 @@
+
+#naruto{
+    width:665px;
+    height: 70%;
+}
+
+#sasuke{
+    width:665px;
+    height:356px;
+}
+
+#maindiv{
+    display: flex;
+    background-color: ghostwhite;
+}
+
+#player1div{
+    text-align: center;
+}
+#player2div{
+    text-align: center;
+    
+}
+
+#victorydiv{
+    height:37px;
+    margin-left:610px;
+    
+}

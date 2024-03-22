@@ -1,0 +1,21 @@
+#game{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+}
+
+#display{
+    margin-bottom: 2%;
+}
+
+#computerDisplay{
+    margin-bottom: 2%;
+}
+
+#scoreDisplay{
+    margin-top: 2%;
+}
+
+#body{
+    text-align: center;
+}

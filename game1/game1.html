@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "game1.css"> 
+</head>
+<body>
+    <div id = "maindiv">
+        <div id = "player1div">
+            <img src = "naruto.jpg" id="naruto">
+            <div id="score1">
+                <h1>100</h1>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <h>Q: </h>
+                <button id = "attack1">Attack</button>
+            </div>
+            <div>
+                <h>A: </h>
+                <button id = "heal1">Healing</button>
+            </div>
+        </div>
+        <div id = "player2div">
+            <img src = "sasuke.jpg" id="sasuke">
+            <div id="score2">
+                <h1>100</h1>
+            </div>
+            <div style="margin-bottom: 10px;">
+                <h>P: </h>
+                <button id = "attack2">Attack</button>
+            </div>
+            <div>
+                <h>O: </h>
+                <button id = "heal2">Healing</button>
+            </div>
+        </div>
+    </div>
+
+    <div id = "victorydiv">
+        <h1>Result</h1>
+    </div>
+
+    <button style="width:100px; height:30px; margin-left: 599px;" id="restart">
+        Restart
+    </button>
+
+    <audio
+    src="punch-140236.mp3"
+    type="audio/mp3"
+    id="bighit">
+    </audio>
+    <audio
+    src="punch-2-123106.mp3"
+    type="audio/mp3"
+    id="lightpunch">
+    </audio>
+    <audio
+    src="healpop-46004.mp3"
+    type="audio/mp3"
+    id="heal">
+    </audio>
+
+    <script src = "game1.js"></script>
+</body>
+</html>
